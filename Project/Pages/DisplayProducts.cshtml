@@ -1,0 +1,31 @@
+﻿@page
+@model Project.Pages.DisplayProductsModel
+@{
+    ViewData["Title"] = "Display Products";
+}
+
+
+
+@foreach (var item in Model.Product)
+
+{
+    <div class="card">
+
+        <img src="~/images/@item.ImageName"/>
+
+        <div class="container">
+
+            <p>@item.ProductName </p>
+            <p>@item.ProductDescription</p>
+            <p class="price"> £@item.Price</p>
+            <p><button>Add to Cart</button></p>
+
+        </div>
+
+    </div>
+
+
+
+}
+
+
