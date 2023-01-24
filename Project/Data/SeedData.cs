@@ -4,13 +4,11 @@ namespace Project.Data
 {
     public class SeedData
     {
-        public static void Initialize(IServiceProvider serviceProvider)
+        public static void Initialize(ProjectContext context)
         {
-            using (var context = new ProjectContext(serviceProvider.GetRequiredService<DbContextOptions<ProjectContext>>()))
-            {
                 if (context == null || context.Product == null)
                 {
-                    throw new ArgumentNullException("Null CWContext");
+                    throw new ArgumentNullException("Null Context");
                 }
 
                 // Look for any movies.
@@ -52,11 +50,7 @@ namespace Project.Data
                     );
 
                 context.SaveChanges();
-
-
-
             }
-        }
     }
 
 }

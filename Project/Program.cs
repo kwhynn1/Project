@@ -15,9 +15,6 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-    
-
-    SeedData.Initialize(services);
 }
 
 
@@ -27,6 +24,15 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
+}
+
+using (var scope = app.Services.CreateScope())
+{
+	var services = scope.ServiceProvider;
+
+	var context = services.GetRequiredService<ProjectContext>();
+	context.Database.EnsureCreated();
+	SeedData.Initialize(context);
 }
 
 app.UseHttpsRedirection();
