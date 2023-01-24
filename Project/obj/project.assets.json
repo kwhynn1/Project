@@ -10022,11 +10022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Uni\\CO550 Web Applications\\Project\\Project\\Project.csproj",
+      "projectUniqueName": "C:\\Users\\Afro\\Documents\\GitHub\\Project\\Project\\Project.csproj",
       "projectName": "Project",
-      "projectPath": "E:\\Uni\\CO550 Web Applications\\Project\\Project\\Project.csproj",
+      "projectPath": "C:\\Users\\Afro\\Documents\\GitHub\\Project\\Project\\Project.csproj",
       "packagesPath": "C:\\Users\\Afro\\.nuget\\packages\\",
-      "outputPath": "E:\\Uni\\CO550 Web Applications\\Project\\Project\\obj\\",
+      "outputPath": "C:\\Users\\Afro\\Documents\\GitHub\\Project\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Afro\\AppData\\Roaming\\NuGet\\NuGet.Config",
