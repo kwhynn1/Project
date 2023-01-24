@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RwU/tyjCnBvT4IXWFZ4izzffXj1AsnIdxQ5SA7trTq4=",
+  "Hash": "1caflEIkLA3D9BX86n21K4sD9EL6qmslyH13kAXz9C8=",
   "Source": "Project",
   "BasePath": "_content/Project",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\3.jpg"
+    },
+    {
+      "Identity": "D:\\CO550-23\\KyleProject\\Project\\wwwroot\\images\\Bucks.jpg",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CO550-23\\KyleProject\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "images/Bucks.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Bucks.jpg"
     },
     {
       "Identity": "D:\\CO550-23\\KyleProject\\Project\\wwwroot\\js\\site.js",

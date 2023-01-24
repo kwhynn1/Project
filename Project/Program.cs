@@ -7,9 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<IImageUploadService, ImageUploadService>();
+
 builder.Services.AddDbContext<ProjectContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ProjectContext") ?? throw new InvalidOperationException("Connection string 'ProjectContext' not found.")));
-//builder.Services.AddScoped<IImageUploadService, ImageUploadService>(); 
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

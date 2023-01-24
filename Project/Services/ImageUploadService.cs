@@ -1,4 +1,6 @@
-﻿namespace Project.Services
+﻿using Microsoft.AspNetCore.Hosting;
+
+namespace Project.Services
 {
     public class ImageUploadService : IImageUploadService
     {

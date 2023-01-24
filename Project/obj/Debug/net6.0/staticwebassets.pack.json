@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\3.jpg"
     },
     {
+      "Id": "D:\\CO550-23\\KyleProject\\Project\\wwwroot\\images\\Bucks.jpg",
+      "PackagePath": "staticwebassets\\images\\Bucks.jpg"
+    },
+    {
       "Id": "D:\\CO550-23\\KyleProject\\Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

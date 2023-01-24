@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Project.Services;
 using Project.Services;
 
 namespace Project.Pages
@@ -17,9 +15,8 @@ namespace Project.Pages
             this.imageUploadService = imageUploadService;
         }
 
-        public void OnGet(IFormFile file)
+        public void OnGet()
         {
-            fileName = file.FileName;
         }
 
         public async void OnPost(IFormFile file)
